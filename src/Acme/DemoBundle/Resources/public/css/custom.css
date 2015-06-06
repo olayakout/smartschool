@@ -1,0 +1,87 @@
+.navbar-nav{
+float:left !important;
+direction:rtl;
+}
+header{  background: #FEE700;}
+.navbar-default{
+background: #FE7800;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{  color: #139E83;}
+header .intro-text .name{
+  color: #1EBB9D;
+}
+
+header .intro-text .skills{
+    color: #FE7800;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+color:#FEE700;
+}
+
+.cover{
+  margin-top: -87px;
+  max-width: 60%;
+}
+section h2 ,hr.star-light:after{
+color:#2c3e50;
+}
+
+hr.star-light {
+  border-color: #2c3e50;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  background-color: #18BC9C;}
+
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+  width: 42%;
+ height: 42%;
+  float: left;
+  margin-right: 56px;
+  padding-left: 17px;
+}
+
+section.success {
+  height: 683px;
+}
+
+.row {
+  padding-top: 20px;
+}
+
+.login {
+  margin-top: 200px;
+  margin-right: 411px;
+  border: solid;
+  padding-right: 88px;
+  width: 532px;
+  height: 361px;
+  padding-top: 91px;
+  border-radius: 87px;
+  border-color: #FEE700;
+  background-color: #FEE700;
+  color: rgb(24, 188, 156);
+  font-size: 18px;
+}
+
+#btn{
+margin-right: 64px;
+  margin-top: 0px;
+  width: 214px;
+
+}
+
+td{
+  padding-bottom: 36px;
+}
+
+.li{
+  width: 295px;
+  height: 100px;
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 102px;
+}

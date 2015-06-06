@@ -1,0 +1,28 @@
+{% extends "::base.html.twig" %}
+
+{% block title %} Login Form {% endblock %}
+
+{% block body %}
+ <h1> تسجيل دخول </h1>
+
+ {{ form_start(form ,{attr: {novalidate : 'novalidate' }}) }}
+<table>
+    <tr> 
+      <td>  {{ form_errors(form.fullname) }} </td>
+    <td>  {{ form_widget(form.fullname)}} </td> 
+    <td>  {{ form_label(form.fullname, 'الاسم كامل') }} </td>
+    </tr>
+
+ {{ form_start(form ,{attr: {novalidate : 'novalidate' }}) }}
+<table>
+    <tr> 
+      <td>  {{ form_errors(form.code) }} </td>
+    <td>  {{ form_widget(form.code)}} </td> 
+    <td>  {{ form_label(form.code, 'كلمة المرور') }} </td>
+    </tr> 
+
+</table>
+ {{ form_widget(form.submit, { 'label': 'دخول' }) }}
+ {{ form_end(form) }}
+
+{% endblock %}
